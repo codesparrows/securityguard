@@ -1,0 +1,1528 @@
+@font-face {
+  font-family: 'Electrician';
+  src:  url('../fonts/Electrician.eot');
+  src:  url('../fonts/Electrician.eot#iefix') format('embedded-opentype'),
+    url('../fonts/Electrician.ttf') format('truetype'),
+    url('../fonts/Electrician.woff') format('woff'),
+    url('../fonts/Electrician.svg#Electrician') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Electrician' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-envelope:before {
+  content: "\e929";
+}
+.icon-calendar:before {
+  content: "\e928";
+}
+.icon-shop-cart:before {
+  content: "\e91c";
+}
+.icon-arrowhead:before {
+  content: "\e91d";
+}
+.icon-star-black:before {
+  content: "\e91e";
+}
+.icon-bin-delete:before {
+  content: "\e91f";
+}
+.icon-calc:before {
+  content: "\e920";
+}
+.icon-people:before {
+  content: "\e921";
+}
+.icon-price-tag:before {
+  content: "\e922";
+}
+.icon-transport:before {
+  content: "\e923";
+}
+.icon-24-hours:before {
+  content: "\e924";
+}
+.icon-technology1:before {
+  content: "\e925";
+}
+.icon-clock:before {
+  content: "\e926";
+}
+.icon-arrow-left:before {
+  content: "\e916";
+}
+.icon-arrow-right:before {
+  content: "\e917";
+}
+.icon-light:before {
+  content: "\e900";
+}
+.icon-air-conditioner:before {
+  content: "\e901";
+}
+.icon-security-camera:before {
+  content: "\e902";
+}
+.icon-tool:before {
+  content: "\e903";
+}
+.icon-screwdriver:before {
+  content: "\e904";
+}
+.icon-computer:before {
+  content: "\e905";
+}
+.icon-check:before {
+  content: "\e906";
+}
+.icon-circle:before {
+  content: "\e907";
+}
+.icon-facebook:before {
+  content: "\e908";
+}
+.icon-favorite:before {
+  content: "\e909";
+}
+.icon-google-plus:before {
+  content: "\e90a";
+}
+.icon-instagram:before {
+  content: "\e90b";
+}
+.icon-interface:before {
+  content: "\e90c";
+}
+.icon-left-quote:before {
+  content: "\e90d";
+}
+.icon-lightning:before {
+  content: "\e90e";
+}
+.icon-linkedin:before {
+  content: "\e90f";
+}
+.icon-map-marker:before {
+  content: "\e910";
+}
+.icon-right-quote-sign:before {
+  content: "\e911";
+}
+.icon-technology:before {
+  content: "\e912";
+}
+.icon-telephone:before {
+  content: "\e913";
+}
+.icon-tumblr:before {
+  content: "\e914";
+}
+.icon-twitter:before {
+  content: "\e915";
+}
+.icon-print:before {
+  content: "\e927";
+}
+.icon-arrow_right:before {
+  content: "\e91a";
+}
+.icon-arrow_left:before {
+  content: "\e91b";
+}
+.icon-speech:before {
+  content: "\e919";
+}
+.icon-cancel:before {
+  content: "\e918";
+}
+
+
+/* this is 2nd */
+
+
+p {
+  color: #444;
+  font-weight: 400;
+}
+a {
+  display: inline-block;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  text-decoration: none;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+h2,
+h3 {
+  font-weight: 600;
+  color: #252525;
+}
+h3 {
+  font-size: 22px;
+}
+img {
+  max-width: 100%;
+}
+.pt-100 {
+  padding-top: 100px;
+}
+.pb-70 {
+  padding-bottom: 70px;
+}
+.mr-20 {
+  margin-right: 20px;
+}
+.border-radius-5 {
+  border-radius: 5px;
+}
+.section-title span {
+  margin-bottom: 8px;
+  font-weight: 600;
+  display: block;
+}
+.section-title h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 0;
+  line-height: 1.2;
+  color: #252525;
+  margin-bottom: 0;
+}
+.section-title p {
+  padding-top: 10px;
+  margin-bottom: 0;
+  max-width: 530px;
+  color: #444;
+}
+.sp-color1 {
+  color: #ffc221;
+}
+.default-btn {
+  display: inline-block;
+  padding: 12px 32px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.default-btn i {
+  font-size: 20px;
+  position: relative;
+  top: 4px;
+  display: none;
+}
+.default-btn::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  left: -36%;
+  top: 0;
+  -webkit-transform: skew(50deg);
+  transform: skew(50deg);
+  -webkit-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  width: 0;
+}
+.default-btn:hover {
+  color: #fff !important;
+}
+.default-btn:hover:before {
+  height: 100%;
+  width: 135%;
+  background-color: #252525;
+}
+.btn-bg-two {
+  background-color: #0071dc;
+}
+.choose-area {
+  background-color: #070b3b;
+}
+.choose-content {
+  margin-bottom: 30px;
+}
+.choose-content .section-title h2 {
+  max-width: 470px;
+  color: #fff;
+}
+.choose-content .section-title p {
+  color: #fff;
+}
+.choose-content .choose-content-card {
+  margin-top: 15px;
+}
+.choose-content .choose-content-card .content {
+  padding-top: 20px;
+  position: relative;
+  padding-left: 75px;
+}
+.choose-content .choose-content-card .content i {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  font-size: 60px;
+  color: #0071dc;
+  line-height: 1;
+}
+.choose-content .choose-content-card .content h3 {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.choose-content .choose-content-card p {
+  margin-top: 5px;
+  margin-bottom: 0;
+  color: #fff;
+}
+.choose-img {
+  margin-bottom: 30px;
+}
+.choose-img img {
+  border-radius: 15px;
+}
+.call-us-area {
+  background-color: #070b3b;
+  position: relative;
+  z-index: 1;
+}
+.call-us-area::before {
+  content: "";
+  position: absolute;
+  opacity: 0.1;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/call-shap1.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.call-us-img {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.call-shape .shape1 {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+.call-shape .shape2 {
+  position: absolute;
+  top: 30px;
+  right: -35px;
+}
+.call-contact {
+  padding: 180px 0;
+}
+.call-contact h3 {
+  font-size: 22px;
+  color: #ffc221;
+  margin-bottom: 5px;
+}
+.call-contact .call-btn {
+  font-size: 35px;
+  color: #fff;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.call-contact .call-btn:hover {
+  color: #ffc221;
+}
+.call-contact p {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+@keyframes rotate-in {
+  0% {
+    -webkit-transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(0deg) rotateY(0deg);
+  }
+  50% {
+    -webkit-transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+    transform: perspective(120px) rotateX(-180.1deg) rotateY(0deg);
+  }
+  100% {
+    -webkit-transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+    transform: perspective(120px) rotateX(-180deg) rotateY(-179.9deg);
+  }
+}
+@keyframes moveBounce {
+  0% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+  50% {
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+    transform: translateY(0px);
+  }
+}
+
+
+/* 3rd start  */
+
+@charset "UTF-8";
+/*
+
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+:root {
+  --main-color-one: #ff800f;
+  --secondary-color: #ffffff;
+ 
+  --active-color: #ff800f;
+  --paragraph-color: #001064;
+ 
+}
+
+
+
+
+h4 {
+  font-size: 20px;
+  line-height: 1.2380952381;
+}
+
+
+h4 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  color: var(--paragraph-color);
+  font-family: var(--heading-font);
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
+
+a i {
+  padding: 0 2px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/*input and button type focus outline disable*/
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+
+/* Do not show the outline on the skip link target. */
+
+/*--------------------------------------------------------------
+# Globals
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+
+/* Make sure embeds and iframes fit their containers. */
+
+/* Make sure logo link wraps around logo image. */
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+
+/*----------------------------------------
+    # Unit test
+------------------------------------------*/
+
+ ul {
+  padding-left: 15px;
+}
+
+/*--------------------------------------------------------------
+# Gutenberg	Default Style
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+## Block Color Palette Colors
+--------------------------------------------------------------*/
+
+/*--------------------
+    about pages
+--------------------*/
+
+/*--------------------------------------------------------------
+	## Services Page
+--------------------------------------------------------------*/
+
+/*----------------------------------------
+    shop style
+----------------------------------------*/
+
+/******* single product page ********/
+
+/****** checkout page ******/
+
+/*--------------------
+    Blog Page
+--------------------*/
+
+/*--------------------
+    Blog Details Page
+--------------------*/
+
+/*--------------------
+    Contact pages
+--------------------*/
+
+/*---------------------
+    Breadcumb Area
+----------------------*/
+
+/*--------------------------------------------------------------
+	## Comments
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+	## WIdgets
+--------------------------------------------------------------*/
+
+/*----------------------------------------------
+    # Nav bar 
+----------------------------------------------*/
+/*----------------------------
+    Top Bar
+----------------------------*/
+
+/*----------------------------
+    Info Bar
+----------------------------*/
+
+/*--------------------------------------------------------------
+	## Header
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+	## cooli Item
+--------------------------------------------------------------*/
+
+/*------------------------------
+    About Us Area
+------------------------------*/
+.about-us-area {
+  background-color: var(--secondary-color);
+  position: relative;
+}
+.about-us-area.about-bg {
+  background: url(../images/about-shape.png) no-repeat padding-box;
+  height: 100%;
+  display: block;
+  opacity: 1;
+  content: "";
+  right: 0;
+  top: 0;
+}
+.about-us-area .about-image {
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  display: block;
+  position: relative;
+  display: inline-block;
+}
+.about-us-area .about-image img {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.about-us-area .about-image .hover .video-play-btn {
+  position: absolute;
+  left: 50%;
+  margin-left: -40px;
+  margin-top: -40px;
+  top: 50%;
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 128, 15, 0.7);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 88px;
+}
+.about-us-area .about-area-right {
+  max-width: 700px;
+  padding:10px;
+}
+.about-us-area .about-area-right .btn-wrapper {
+  margin-top: 38px;
+  display: block;
+}
+
+.remove-col-padding {
+  padding:10px;
+}
+
+.video-play-btn i {
+  font-size: 25px;
+  color: #fff;
+}
+
+/*------------------------------
+   faq
+------------------------------*/
+.faq-wrap {
+  margin-top: 0px;
+}
+.faq-wrap .accordion {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.faq-wrap .accordion li {
+  margin-bottom: 15px;
+  background-color: var(--active-color);
+  border-radius: 5px;
+}
+.faq-wrap .accordion li:last-child {
+  margin-bottom: 0px;
+}
+.faq-wrap .accordion li.active .answer {
+  max-height: 200px !important;
+  padding: 10px 20px;
+  transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+  background: #fff;
+  border-left: 1px solid var(--active-color);
+  border-right: 1px solid var(--active-color);
+  border-bottom: 1px solid var(--active-color);
+  border-radius: 0 0 5px 5px;
+}
+.faq-wrap .accordion li.active .plus-minus-toggle {
+  background-color: var(--active-color);
+  border: 1px solid #fff;
+}
+.faq-wrap .accordion li.active .question {
+  background-color: var(--active-color);
+  color: var(--secondary-color);
+  transition: color 0.5s ease;
+  border-radius: 30px;
+}
+.faq-wrap .accordion li.active .question h4 {
+  color: var(--secondary-color);
+  margin-bottom: 0;
+}
+.faq-wrap .accordion li .answer {
+  font-size: 16px;
+  line-height: 24px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding-bottom 0.5s ease;
+}
+.faq-wrap .accordion li .plus-minus-toggle {
+  cursor: pointer;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  background-color: var(--heading-color);
+  left: 10px;
+  top: 17%;
+  border-radius: 50%;
+  z-index: 2;
+}
+.faq-wrap .accordion li .plus-minus-toggle:before, .faq-wrap .accordion li .plus-minus-toggle:after {
+  background: var(--secondary-color);
+  content: "";
+  height: 3px;
+  left: 7px;
+  position: absolute;
+  top: 13px;
+  width: 16px;
+  transition: transform 500ms ease;
+}
+.faq-wrap .accordion li .plus-minus-toggle:after {
+  transform-origin: center;
+}
+.faq-wrap .accordion li .plus-minus-toggle.collapsed:after {
+  transform: rotate(90deg);
+}
+.faq-wrap .accordion li .plus-minus-toggle.collapsed:before {
+  transform: rotate(180deg);
+}
+.faq-wrap .accordion li .question {
+  position: relative;
+  cursor: pointer;
+  padding: 10px 0 8px;
+  transition: color 0.5s ease;
+}
+.faq-wrap .accordion li h4 {
+  padding-left: 60px;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.faq-wrap .accordion .question h4 {
+  margin-bottom: 0 !important;
+}
+
+.btn-ripple-animate {
+  animation: ripple-white3 2.5s linear infinite;
+}
+@keyframes ripple-white3 {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1), 0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0.1), 0 0 0 20px rgba(255, 255, 255, 0.1), 0 0 0 100px rgba(255, 255, 255, 0);
+  }
+}
+/*------------------------------
+    Ask Area
+------------------------------*/
+
+/*------------------------------
+    banking-choose Area
+------------------------------*/
+
+/*----------------------
+Fact Area
+-----------------------*/
+
+/*--------------------
+    Blog  area
+--------------------*/
+
+/*--------------------------------------------------------------
+	## service Area
+--------------------------------------------------------------*/
+
+/*----------------------
+  Counterup area
+-----------------------*/
+
+/*--------------------------------------------------------------
+	## facilities Item
+--------------------------------------------------------------*/
+
+/*--------------------
+    project area
+--------------------*/
+
+/*------------------------------
+    cta Area
+------------------------------*/
+
+/*------------------------------
+    history Area
+------------------------------*/
+
+/*------------------------------
+    Appoinment  Area
+------------------------------*/
+/*--------------------
+    Blog  area
+--------------------*/
+
+/*------------------------------
+    testimonial Area
+------------------------------*/
+
+/*-------------------------
+    Footer Area
+-------------------------*/
+
+/*-----------------------
+    Error 404 Page
+-----------------------*/
+
+/*---------------------------------------
+    ## Back Top
+---------------------------------------*/
+
+/*-------------------------
+    ## Preloader Css
+---------------------------*/
+@keyframes sk-rotate {
+  100% {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes sk-bounce {
+  0%, 100% {
+    transform: scale(0);
+    -webkit-transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+}
+/*----------------------------------------
+  ## Search Popup
+----------------------------------------*/
+
+/*---------------------------------------
+    ## Button
+---------------------------------------*/
+.btn-wrapper {
+  display: block;
+}
+.btn-wrapper .btn-hrv {
+  background-color: var(--main-color-one);
+  color: #fff;
+  display: inline-block;
+  padding: 17px 40px;
+  min-width: 160px;
+  text-align: center;
+  transition: all 0.3s ease-in;
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: capitalize;
+  letter-spacing: 0.15rem;
+  border-radius: 3px;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.btn-wrapper .btn-hrv:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-color-one);
+  z-index: -2;
+}
+.btn-wrapper .btn-hrv:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(0, 16, 100, 0.9);
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn-wrapper .btn-hrv:hover {
+  color: #fff;
+}
+.btn-wrapper .btn-hrv:hover:before {
+  width: 100%;
+}
+/*-----------------------------
+    Accordion Item
+-----------------------------*/
+
+/*----------------------------------------
+  ## Section title
+----------------------------------------*/
+
+
+/******** all responsive code here *********/
+@media all and (max-width: 1199px) {
+	.faq-wrap .accordion li .answer {
+		font-size: 15px;
+	}
+	.about-us-area .about-area-right {
+	    padding: 30px 30px 30px 30px;
+	}
+}
+@media all and (max-width: 575px) {
+	.about-us-area .about-image img {
+	    height: auto;
+	}
+	.about-us-area .about-area-right {
+	    padding: 30px  0;
+	}
+}
+
+/* 4 gallery */
+
+
+
+h2,
+h3 {
+  line-height: 1.4;
+  font-weight: 600;
+  font-family: 'Raleway', sans-serif;
+  margin: 0 0 10px 0;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 22px;
+}
+p {
+  line-height: 24px;
+  margin: 0 0 20px 0;
+}
+a {
+  text-decoration: none;
+}
+a:active,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+a:active,
+a:hover,
+a:focus {
+  outline: 0 none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+/*----------------------------------------
+1.3 Helper Classes styles
+/*----------------------------------------*/
+.inner-section-space-top {
+  padding: 60px 0 0 0;
+}
+.section-space-88-100 {
+  padding: 88px 0 100px;
+}
+/*----------------------------------------
+1.4 Button styles
+/*----------------------------------------*/
+/*----------------------------------------
+1.5 Section Title styles
+/*----------------------------------------*/
+.section-title-area {
+  text-align: center;
+}
+.section-title-area h2.section-title {
+  margin-bottom: 24px;
+  color: #222222;
+}
+.section-title-area .title-bottom-icon {
+  width: 235px;
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 37px;
+}
+.section-title-area .title-bottom-icon .title-bottom-icon-left:after {
+  content: "";
+  height: 1px;
+  width: 80px;
+  background: #b0b0b0;
+  bottom: 7px;
+  left: 0;
+  position: absolute;
+}
+.section-title-area .title-bottom-icon .title-bottom-icon-left:before {
+  content: "";
+  height: 1px;
+  width: 80px;
+  background: #b0b0b0;
+  bottom: 10px;
+  left: 10px;
+  position: absolute;
+}
+.section-title-area .title-bottom-icon i {
+  color: #ffbe00;
+  font-size: 16px;
+}
+.section-title-area .title-bottom-icon .title-bottom-icon-right:after {
+  content: "";
+  height: 1px;
+  width: 80px;
+  background: #b0b0b0;
+  bottom: 10px;
+  right: 0;
+  position: absolute;
+}
+.section-title-area .title-bottom-icon .title-bottom-icon-right:before {
+  content: "";
+  height: 1px;
+  width: 80px;
+  background: #b0b0b0;
+  bottom: 7px;
+  right: 10px;
+  position: absolute;
+}
+.section-title-area p {
+  margin: 0 auto;
+  max-width: 700px;
+  width: 100%;
+}
+/*----------------------------------------
+1.6 Inner Page Header Banner styles
+/*----------------------------------------*/
+/*-------------------------------------
+1.7 Contact Banner Area styles  
+---------------------------------------*/
+/*-------------------------------------
+1.8 Image Back Side styles
+--------------------------------------*/
+/*-------------------------------------
+1.9 Pagination styles
+--------------------------------------*/
+/*-------------------------------------
+1.10 Search Box styles
+--------------------------------------*/
+/*-------------------------------------
+1.11 ScrollUp styles
+--------------------------------------*/
+/*-------------------------------------
+1.12 Preloader styles
+--------------------------------------*/
+/*=====================================
+2. Header Area
+=======================================*/
+/*-------------------------------------
+2.1 Header Common Area styles
+--------------------------------------*/
+/*-------------------------------------
+2.2 Header 1 Area styles 
+---------------------------------------*/
+/*-------------------------------------
+2.3 Header 2 Area styles 
+---------------------------------------*/
+/*-------------------------------------
+2.4 Header 3 Area styles 
+---------------------------------------*/
+/*-------------------------------------
+2.5 Header 4 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+2.6 Stick Menu Area styles 
+---------------------------------------*/
+/*-------------------------------------
+2.7 Mobile Menu Area styles
+---------------------------------------*/
+/*====================================
+3. Slider Area 
+======================================*/
+/*-------------------------------------
+3.1 Slider 1 Area styles 
+---------------------------------------*/
+/*-------------------------------------
+3.2 Slider 2 Area styles
+---------------------------------------*/
+/*-------------------------------------
+3.3 Slider 3 Area styles
+---------------------------------------*/
+/*-------------------------------------
+3.4 Slider 4 Area styles
+---------------------------------------*/
+/*====================================
+4. Service Area 
+======================================*/
+/*-------------------------------------
+4.1 Services 1 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+4.2 Services 2 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+4.3 Services 3 Area styles   
+---------------------------------------*/
+/*------------------------------
+4.4 Services Page 1 Area styles
+----------------------------*/
+/*------------------------------
+4.5 Services Page 2 Area styles
+----------------------------*/
+/*------------------------------
+4.6 Services Page 3 Area styles
+----------------------------*/
+/*-------------------------------------
+4.7 Services Page Details Area styles
+---------------------------------------*/
+/*====================================
+5. About Area 
+======================================*/
+/*-------------------------------------
+5.1 About 1 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+5.2 About 2 Area styles    
+---------------------------------------*/
+/*-------------------------------------
+5.3 About 3 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+5.4 About 4 Area styles  
+---------------------------------------*/
+/*=====================================
+5.5 About Page Area styles   
+=======================================*/
+/*====================================
+6. Featured Area 
+======================================*/
+/*-------------------------------------
+6.1 Featured 1 Area styles  
+---------------------------------------*/
+.featured-area {
+  background: url(../images/background_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.featured-area .section-title-area h2 {
+  color: #ffffff;
+}
+.featured-area .section-title-area p {
+  color: #e1e1e1;
+  max-width: 700px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.featured-area .isotop-classes-tab {
+  text-align: center;
+}
+.featured-area .isotop-classes-tab a {
+  padding: 10px 30px;
+  border: 2px solid #ffbe00;
+  margin: 0 5px;
+  color: #dddddd;
+  font-weight: 600;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.featured-area .isotop-classes-tab a:hover {
+  background: #ffbe00;
+  border: 2px solid #ffbe00;
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.featured-area .isotop-classes-tab .current {
+  background: #ffbe00;
+  border: 2px solid #ffbe00;
+  color: #ffffff;
+}
+.featured-area .featuredContainer > div {
+  padding: 0;
+}
+.featured-area .featuredContainer .featured-box {
+  position: relative;
+}
+.featured-area .featuredContainer .featured-box .featured-box-content {
+  opacity: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  position: absolute;
+  text-align: center;
+  right: 0;
+  left: 0;
+  z-index: 2;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.featured-area .featuredContainer .featured-box .featured-box-content h3 {
+  display: inline-block;
+  margin-bottom: 7px;
+}
+.featured-area .featuredContainer .featured-box .featured-box-content h3 a {
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.featured-area .featuredContainer .featured-box .featured-box-content p {
+  font-weight: 600;
+  color: #ffffff;
+}
+.featured-area .featuredContainer .featured-box .featured-box-content .line {
+  height: 2px;
+  width: 0%;
+  margin: 5px auto;
+  background-color: #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.featured-area .featuredContainer .featured-box .featured-details {
+  opacity: 0;
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  z-index: 10;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.featured-area .featuredContainer .featured-box .featured-details li {
+  margin: 0 2px;
+  display: inline-block;
+}
+.featured-area .featuredContainer .featured-box .featured-details li a {
+  background: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: block;
+  border: 2px solid #ffffff;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.featured-area .featuredContainer .featured-box .featured-details li a:hover {
+  background: transparent;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.featured-area .featuredContainer .featured-box .featured-details li a i {
+  color: #000000;
+}
+.featured-area .featuredContainer .featured-box .overlay {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  opacity: 0.2;
+  z-index: 1;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 190, 0, 0.8);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.featured-area .featuredContainer .featured-box:hover .overlay {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.featured-area .featuredContainer .featured-box:hover .featured-box-content {
+  opacity: 1;
+}
+.featured-area .featuredContainer .featured-box:hover .featured-box-content .line {
+  width: 25%;
+}
+.featured-area .featuredContainer .featured-box:hover .featured-details {
+  opacity: 1;
+  -webkit-transition: all 0.8s ease-out;
+  -moz-transition: all 0.8s ease-out;
+  -ms-transition: all 0.8s ease-out;
+  -o-transition: all 0.8s ease-out;
+  transition: all 0.8s ease-out;
+}
+.featured-area .featuredContainer .featured-box a img {
+  width: 100%;
+}
+/*-------------------------------------
+6.2 Featured 2 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+6.3 Featured 3 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+6.4 Featured 4 Area styles  
+---------------------------------------*/
+/*====================================
+7. Clients Area 
+======================================*/
+/*-------------------------------------
+7.1 Clients 1 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+7.2 Clients 2 Area styles   
+---------------------------------------*/
+/*-------------------------------------
+7.3 Clients 3 Area styles   
+---------------------------------------*/
+/*====================================
+8. News Area 
+======================================*/
+/*-------------------------------------
+8.1 News 1 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+8.2 News 2 Area styles 
+---------------------------------------*/
+/*-------------------------------------
+8.3 News Page 1 Area styles 
+---------------------------------------*/
+/*-------------------------------------
+8.4 News Page Details Area styles  
+---------------------------------------*/
+/*====================================
+9. Video Area 
+======================================*/
+/*-------------------------------------
+9.1 Video 1 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+9.2 Video 2 Area styles   
+---------------------------------------*/
+/*====================================
+10. Projects Area 
+======================================*/
+/*-------------------------------------
+10.1 Projects Page 1 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+10.2 Projects Page 2 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+10.3 Projects Page Details Area styles 
+---------------------------------------*/
+/*====================================
+11. Shop Page Area
+======================================*/
+/*---------------------------------------
+11.1 Shop Page Common Area styles 
+---------------------------------------*/
+/*--------------------------------------
+11.2 Shop Page 1 Area styles
+---------------------------------------*/
+/*--------------------------------------
+11.3 Shop Page 2 Area styles
+---------------------------------------*/
+/*--------------------------------------
+11.4 Shop Page Details Area styles
+---------------------------------------*/
+/*====================================
+12. Team Page Area
+======================================*/
+/*-------------------------------------
+12.1 Team Page 1 Area styles  
+---------------------------------------*/
+/*-------------------------------------
+12.2 Team Page 2 Area styles 
+---------------------------------------*/
+/*-------------------------------------
+12.3 Team Page 3 Area styles   
+---------------------------------------*/
+/*-------------------------------------
+12.4 Team Page Details Area styles  
+---------------------------------------*/
+/*====================================
+13. Other Section Area
+======================================*/
+/*-------------------------------------
+13.1 Brand Area styles  
+---------------------------------------*/
+/*-------------------------------------
+13.2 Get A Quote Area styles  
+---------------------------------------*/
+/*-------------------------------------
+13.3 Why Choose Us Area styles  
+---------------------------------------*/
+/*--------------------------------------
+13.4 Project Activation Area styles
+---------------------------------------*/
+/*======================================
+14. Contact Page Area styles 
+========================================*/
+/*======================================
+15. 404 Error Page Area styles
+========================================*/
+/*======================================
+16. Sidebar Area styles 
+========================================*/
+/*======================================
+17. Footer Area styles 
+========================================*/
+/* Large Devices, Wide Screens */
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width : 991px) {
+
+	h2 {
+
+		font-size: 32px;
+
+	}
+
+	h3 {
+
+		font-size: 22px;
+
+	}
+
+	.inner-section-space-top {
+
+		padding: 50px 0 0;
+
+	}
+
+	.section-space-88-100 {
+
+	  padding: 68px 0 80px;
+
+	}
+
+	.featured-area .isotop-classes-tab a {
+
+		margin: 0;
+
+	}
+
+}
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width : 767px) {
+
+	.inner-section-space-top {
+
+		padding: 40px 0 0;
+
+	}
+
+	.section-space-88-100 {
+
+	  padding: 58px 0 70px;
+
+	}
+
+	.featured-area .isotop-classes-tab a {
+
+		display: inline-block;
+
+		margin: 0 2px 8px;
+
+	}
+
+	.featured-area .featuredContainer .featured-box .featured-details {
+
+		display: none;
+
+	}
+
+}
+
+/* Extra Small Devices, Phones */ 
+
+@media only screen and (max-width : 479px) {
+
+	h2 {
+
+		font-size: 30px;
+
+	}
+
+	h3 {
+
+		font-size: 22px;
+
+	}
+
+	.inner-section-space-top {
+
+		padding: 40px 0 0;
+
+	}
+
+	.section-space-88-100 {
+
+	  padding: 48px 0 60px;
+
+	}
+
+	.featured-area .isotop-classes-tab a {
+
+		display: inline-table;
+
+		margin: 2px 0;
+
+	}
+
+}
+
+/* small mobile :480px. */
+
+/* Custom, iPhone Retina */ 
+
+@media only screen and (max-width : 320px) {
+
+	h2 {
+
+    	font-size: 28px;
+
+	}
+
+}
