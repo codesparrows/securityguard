@@ -1526,3 +1526,278 @@ ul {
 	}
 
 }
+
+
+/* footer new */
+
+
+/*
+	## Header
+		- Top Header
+		- Logo Block
+		- Navigation Menu
+	## Slider Section
+	## Service Section
+	## Welcome Section
+	## Team Section
+	## Industry Section
+	
+*/
+
+body { font-family: 'Lato', sans-serif; font-size: 14px; /* font-family: 'Cabin', sans-serif; */ }
+
+[class*="-section"] { overflow: hidden; }
+
+a { 
+	text-decoration: none;
+    outline: 0 !important;
+}
+
+p { line-height: 24px; }
+
+/* ## Fonts ## */ 
+
+
+.footer-heading h5,
+.widget > h3,
+.footer-bottom > p {
+	font-family: 'Cabin', sans-serif;
+}
+
+
+.footer-heading h5 {
+	font-weight: bold;
+}
+
+
+/* ## Global Class ## */
+.ow-background {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+
+.footer-heading  {
+	text-transform: uppercase;
+}
+
+
+.footer-heading {
+	text-align: center;
+}
+
+p {
+	color: #777;
+}
+
+
+.footer-heading,
+.footer-bottom > p {
+	color: #fff;
+}
+
+/* ## Header Section ## */
+
+/* Top Header */
+
+/* Logo Block */
+
+/* ## Slider Section ## */
+
+/* ## Service Section ## */
+
+/* ## Welcome Section ## */
+
+/* ## Team Section ## */
+
+/* ## Industry Section ## */
+
+/* Testimonial */
+
+
+
+/* ## Statistics Section ## */
+
+/* ## Blog Section ## */
+/* ## Call Out Section ## */
+
+/* ## footer Section ##*/
+.footer-section {
+	background-image: url("../images/footer-bg.jpg");
+}
+
+.footer-heading {
+	background-image: url("../images/footer-heading.png");
+	background-size: 100% 100%;
+	height: 108px;
+	margin-bottom: 64px;
+}
+
+.footer-heading h5 {
+	color: rgba(243,231,33,0.7);
+	margin-top: 25px;
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.footer-heading h3 {
+	font-size: 20px;
+	margin: 20px 0 0 0;
+}
+
+.footer-bottom {
+	width: 100%;
+	display: inline-block;
+	border-top: 1px solid #242424;
+	margin-top: 64px;
+	padding: 19px 0;
+	text-align: center;
+}
+
+.footer-bottom > p {
+	margin-bottom: 0;
+}
+
+
+
+/* Slider Section */
+
+/* Footer Section */
+.widget-calculator form input[type="text"]::-webkit-input-placeholder {
+	color: #999;
+	opacity: 1;
+}
+
+.widget-calculator form input[type="text"]:-moz-placeholder,
+ .widget-calculator form select{
+	color: #999;
+	opacity: 1;
+}
+
+.widget-calculator form input[type="text"]::-moz-placeholder {
+	color: #999;
+	opacity: 1;
+}
+
+.widget-calculator form input[type="text"]:-ms-input-placeholder {
+	color: #999;
+	opacity: 1;
+}
+
+
+/* ## widget ## */
+
+.widget > h3 {
+	font-family: 'Cabin', sans-serif;
+	color: #fff;
+	border-bottom: 1px solid #333;
+	display: inline-block;
+	text-transform: uppercase;
+	font-size: 15px;
+	padding-bottom: 9px;
+	margin-top: 0;
+	margin-bottom: 17px;
+}
+
+.widget ul {
+	padding-left: 0;
+	list-style: none;
+}
+
+.widget ul li {
+	margin: 7px 0;
+	display: inline-block;
+	width: 100%;
+}
+
+.widget ul li a i {
+	color: #2196f3;
+	margin-right: 11px;
+}
+
+.widget ul li a {
+	color: #999;
+}
+
+/* ## Widget Calculator ## */
+.widget-calculator {
+	padding: 30px 50px 0;
+	border: 1px solid rgba(33,150,243,0.30);
+}
+
+.widget-calculator > h3 {
+	padding-bottom: 0;
+	border: none;
+}
+
+.widget-calculator > h3:before {
+	content: "";
+	background-color: #2196f3;
+	width: 5px;
+	display: inline-block;
+	height: 15px;
+	position: absolute;
+	left: 0px;
+}
+
+.widget-calculator form {
+	display: inline-block;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.widget-calculator form input[type="text"],
+.widget-calculator form select  {
+	background-color: transparent;
+	border: 2px solid rgba(255,255,255,0.20);
+	display: inline-block;
+	width: 100%;
+	padding: 8px 17px;
+	margin-bottom: 20px;
+	color: #999;
+}
+
+.widget-calculator form select option {
+	outline: none;
+}
+
+.widget-calculator form input[type="submit"] {
+	padding: 10px 20px;
+	display: inline-block;
+	background-color: #f3e721;
+	color: #000;
+	text-transform: uppercase;
+	border: none;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+.widget-calculator form input[type="text"]:focus,
+.widget-calculator form select:focus {
+	box-shadow: none;
+	outline: none;
+}
+
+/* ## Services category ## */
+
+/* ## Address Widget ## */
+
+/* ## Price Filer Widget ## */
+
+/*  Widget :: Search */
+
+/* Widget :: Text */
+
+/* Widget :: Category */
+
+/* Widget :: Recent Post */
+
+/* Widget :: Gallery */
+
+/* Widget :: Tags */
+
+/* Widget :: social */
+
+/* Search */
+
+/* Open state */
